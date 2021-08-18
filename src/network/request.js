@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const instance = axios.create({
-        baseURL: "http://www.hkbu.asia:8080",
+        baseURL: "https://www.hkbu.asia:8080",
         timeout: 20000,
     })
 
